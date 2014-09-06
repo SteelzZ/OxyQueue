@@ -1,0 +1,25 @@
+{
+    "name": "steelzz/oxy-queue",
+    "description": "Queue library for php",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Tomas Bartkus",
+            "email": "to.bartkus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Oxy\\Queue" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/steelzz/OxyCore"
+        }
+    ],
+    "require": {
+        "steelzz/oxy-core": "dev-master"
+    }
+}
